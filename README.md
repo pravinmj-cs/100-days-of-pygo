@@ -6,3 +6,7 @@ A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b436
 |Day 1|A simple program to get the input from the user, combine it and create as band name|
 |Day 2|Tip Calculator & Love Calculator|
 |Day 3|Treasure Island|
+|Day 4|Rock-Paper-Scissor Game|
+|Day 5|Randome Password generator|
+|Day 6|A fun game from [Reeborg](https://reeborg.ca/)|
+
