@@ -9,4 +9,7 @@ A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b436
 |Day 4|Rock-Paper-Scissor Game|
 |Day 5|Randome Password generator|
 |Day 6|A fun game from [Reeborg](https://reeborg.ca/)|
-
+|Day 7|Hangman game|
+|Day 8|Caesar Cipher|
+|Day 9|Blind Auction Program|
+|Day 10|The good old Calculator program|
