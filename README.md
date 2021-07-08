@@ -15,3 +15,4 @@ A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b436
 |Day 10|The good old Calculator program|[link](/day10/python/)|
 |Day 11|The Black Jack Program|[link](/day11/python/)|
 |Day 12|Number guessing game|[link](/day12/python/)|
+|Day 13|Debugging|[link](/day13/python/)|

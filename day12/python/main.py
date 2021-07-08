@@ -10,17 +10,6 @@ from random import randint
 print("Welcome to the Number Guessing game")
 print("I'm thinking of a number between 1 and 100")
 
-difficulty = ""
-i = 0
-while difficulty.lower() != 'easy' and difficulty.lower() != "hard":
-    if i == 0:
-        print("You can choose difficulty between 'easy' and 'hard'\n")
-    elif i > 0 and (difficulty.lower()) != 'easy' and (difficulty.lower()) != 'hard':
-        print("Enter either 'easy' or 'hard'.")
-    i = i+1
-    difficulty = input("Choose a difficulty: ")
-    print(difficulty)
-
 
 def make_guess(actual_no, guessed_no):
     """ Guess if actual no is above or below guessed_no
@@ -41,6 +30,18 @@ def make_guess(actual_no, guessed_no):
     return msg
 
 
+difficulty = ""
+i = 0
+while difficulty.lower() != 'easy' and difficulty.lower() != "hard":
+    if i == 0:
+        print("You can choose difficulty between 'easy' and 'hard'\n")
+    elif i > 0 and (difficulty.lower()) != 'easy' and (difficulty.lower()) != 'hard':
+        print("Enter either 'easy' or 'hard'.")
+    i = i+1
+    difficulty = input("Choose a difficulty: ")
+    print(difficulty)
+
+
 levels = {
     "easy": 15,
     "medium": 10,
@@ -52,13 +53,19 @@ set_counter = levels[difficulty]
 
 
 while set_counter > 0:
-    guessed_num = int(input("Guess a Number between 1 and 100: "))
-    response = make_guess(set_no, guessed_num)
-    if response == "Correct":
-        print(f"You got it. The answer is {set_no}")
-        exit()
-    else:
-        set_counter -= 1
-        print(response, "\n")
+    try:
+        guessed_num = int(input("Guess a Number between 1 and 100: "))
+        response = make_guess(set_no, guessed_num)
+        if response == "Correct":
+            print(f"You got it. The answer is {set_no}")
+            exit()
+        else:
+            set_counter -= 1
+            print(response, "\n")
+            print(
+                f"You have {set_counter if set_counter>0 else 'no'} turns left")
+    except ValueError:
+        print("Enter only numbers")
+
 
 print("Game over")
