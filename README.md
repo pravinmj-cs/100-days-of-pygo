@@ -17,4 +17,4 @@ A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b436
 |Day 12|Number guessing game|[link](/day12/python/)|
 |Day 13|Debugging|[link](/day13/python/)|
 |Day 14|High Low Game|[link](/day14/python/)|
-|Day 15|Coffee Machine to Any Drink Machine|[link](/day15/python/)|
+|Day 15|**Coffee Machine to Any Drink Machine**|[link](/day15/python/)|
