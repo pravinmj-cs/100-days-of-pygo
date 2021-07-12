@@ -1,5 +1,5 @@
 ## 100 day python challenge
-A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) of London App Brewery has gotten me interested and invested in learning like this. I wish I had learned like this when I started. Its a fun walkthrough path from Basic->Intermediate->Advanced. If you are an intermediate programmer. You can start anywhere from 12-15as OOP exercises starts from 16
+A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) of London App Brewery has gotten me interested and invested in learning like this. I wish I had learned like this when I started. Better late than never 
 
 |No|Name|Python|Go|
 |-----|----|-----|---|
