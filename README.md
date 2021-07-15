@@ -1,9 +1,9 @@
 ## 100 day python challenge
-A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) of London App Brewery has gotten me interested and invested in learning like this. I wish I had learned like this when I started. Better late than never 
+A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me interested and invested in learning like this. I wish I had learned like this when I started. Better late than never.
 
 |No|Name|Python|Go|
 |-----|----|-----|---|
-|Day 1|A simple program to get the input from the user, combine it and create as band name|[link](/day1/python/)||
+|Day 1|Band Name generator based on input name|[link](/day1/python/)||
 |Day 2|Tip Calculator & Love Calculator|[link](/day2/python/)|
 |Day 3|Treasure Island|[link](/day3/python/)|
 |Day 4|Rock-Paper-Scissor Game|[link](/day4/python/)|
@@ -17,4 +17,5 @@ A program from udemy created by [Dr. Angela Yu](https://www.udemy.com/user/4b436
 |Day 12|Number guessing game|[link](/day12/python/)|
 |Day 13|Debugging|[link](/day13/python/)|
 |Day 14|High Low Game|[link](/day14/python/)|
-|Day 15|**Coffee Machine to Any Drink Machine**|[link](/day15/python/)|
+|Day 15|Coffee Machine to Any Drink Machine|[link](/day15/python/)|
+|Day 16|Any Drink machine OOP|[link](/day16/python/)|

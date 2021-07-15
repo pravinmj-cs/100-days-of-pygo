@@ -14,15 +14,16 @@ with open("resources.json", "r") as fp:
 
 def get_report():
     """ Returns the resources data from resource.json"""
+    msg = ''
     try:
         resources_available = data["resources"]
         status = True
         for k, v in resources_available.items():
-            msg += f"\n{k}: {v}"
+            msg += f"\n {k}: {v}"
     except KeyError as e:
         status = False
         msg = "There is no resource compartment"
-    return status, msg
+    return msg
 
 
 def update_resources(new_data):
@@ -62,14 +63,16 @@ def prepare_drink(drink_type, ingredients, amount):
         if amount >= data["stats"][str(drink_type)]["cost"]:
             change = round(amount - data["stats"][str(drink_type)]["cost"], 2)
             status, msg = dispatch_drink(drink_type, ingredients)
-            data["money"] = data["money"] - data["stats"][str(drink_type)]["cost"]
+            data["money"] = data["money"] - \
+                data["stats"][str(drink_type)]["cost"]
             update_resources(data)
         else:
             msg = "Sorry that's not enough money. Money refunded."
 
     else:
         status = False
-        msg = "Low or insufficient resources" + "-"+ ",".join(unavailable_resources)
+        msg = "Low or insufficient resources" + \
+            "-" + ",".join(unavailable_resources)
     return msg, change
 
 
@@ -84,20 +87,23 @@ def get_drink(user_input, payment):
 power_state = True
 
 inputs = len(data["stats"])
-drinks_available = [data["stats"][str(s)]["type"] for s in range(1, inputs + 1)]
+drinks_available = [data["stats"][str(s)]["type"]
+                    for s in range(1, inputs + 1)]
 
-message_string = "What would you like?" + "(" + ",".join(drinks_available) + ")"
+message_string = "What would you like?" + \
+    "(" + ",".join(drinks_available) + ")"
 input_strings = []
 for i in range(1, inputs + 1):
-    input_strings.append(f"{i}. {data['stats'][str(i)]['type']}    Cost: {data['stats'][str(i)]['cost']} INR")
+    input_strings.append(
+        f"{i}. {data['stats'][str(i)]['type']}    Cost: {data['stats'][str(i)]['cost']} INR")
 
 
 report_id = str(inputs + 1)
 power_off_id = str(inputs + 2)
 input_strings.append(f"{inputs+1}. Report")
 input_strings.append(f"{inputs+2}. Power Off")
-final_input = message_string + "\n" + "\n".join(input_strings) + "\n" + "Enter a number: "
-
+final_input = message_string + "\n" + \
+    "\n".join(input_strings) + "\n" + "Enter a number: "
 
 
 j = 0
