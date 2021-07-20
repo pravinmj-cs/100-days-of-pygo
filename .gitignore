@@ -1,0 +1,8 @@
+*.pyc
+*.~
+db.sqlite3
+venv
+.vscode
+__pycache__
+tmp_pdf
+*.~_

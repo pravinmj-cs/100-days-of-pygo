@@ -7,7 +7,7 @@ A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me in
 |Day 2|Tip Calculator & Love Calculator|[link](/day2/python/)|
 |Day 3|Treasure Island|[link](/day3/python/)|
 |Day 4|Rock-Paper-Scissor Game|[link](/day4/python/)|
-|Day 5|Randome Password generator|[link](/day5/python/)|
+|Day 5|Random Password generator|[link](/day5/python/)|
 |Day 6|A fun game from [Reeborg](https://reeborg.ca/)|[link](/day6/python/)|
 |Day 7|Hangman game|[link](/day7/python/)|
 |Day 8|Caesar Cipher|[link](/day8/python/)|
@@ -19,3 +19,4 @@ A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me in
 |Day 14|High Low Game|[link](/day14/python/)|
 |Day 15|Coffee Machine to Any Drink Machine|[link](/day15/python/)|
 |Day 16|Any Drink machine OOP|[link](/day16/python/)|
+|Day 17|Quiz Program|[link](day17/python/)|
