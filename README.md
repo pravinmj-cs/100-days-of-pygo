@@ -20,3 +20,4 @@ A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me in
 |Day 15|Coffee Machine to Any Drink Machine|[link](/day15/python/)|
 |Day 16|Any Drink machine OOP|[link](/day16/python/)|
 |Day 17|Quiz Program|[link](day17/python/)|
+|Day 18|Playing with Turtle Module|[link](/day18/python)|
