@@ -21,3 +21,6 @@ A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me in
 |Day 16|Any Drink machine OOP|[link](/day16/python/)|
 |Day 17|Quiz Program|[link](day17/python/)|
 |Day 18|Playing with Turtle Module|[link](/day18/python)|
+|Day 19|Playing with Turtle Module-Race|[link](/day19/python)|
+|Day 20|Playing with Turtle Module-Snake game 01|[link](/day20/python)|
+|Day 21|Playing with Turtle Module-Snake game 02|[link](/day21/python)|
