@@ -24,3 +24,5 @@ A coding course Inspired by Dr. Angela Yu of London App Brewery has gotten me in
 |Day 19|Playing with Turtle Module-Race|[link](/day19/python)|
 |Day 20|Playing with Turtle Module-Snake game 01|[link](/day20/python)|
 |Day 21|Playing with Turtle Module-Snake game 02|[link](/day21/python)|
+|Day 22|Playing with Turtle Module-Snake game 03-File management(already tried in day 16 with json file). File automation|[link](/day22/python)|
+|Day 23|Pandas and Csv-Guess the state game|[link](/day23/python)|
